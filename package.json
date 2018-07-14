@@ -1,0 +1,23 @@
+{
+  "name": "jasmine-for-memory",
+  "version": "1.0.0",
+  "description": "jasmine for mempory project",
+  "main": "main.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine",
+    "j-init": "./node_modules/.bin/jasmine init"
+  },
+  "repository": {
+    "type": "git",
+    "url": "dodam potem"
+  },
+  "keywords": [
+    "memory",
+    "project"
+  ],
+  "author": "karol",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine": "^3.1.0"
+  }
+}
