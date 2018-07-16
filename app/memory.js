@@ -93,6 +93,7 @@ function createBoard(size){
     div.setAttribute('id',i);
     div.innerHTML="?";
     document.getElementById(i).addEventListener("click", show);
+    document.getElementById(i).addEventListener("touchstart click", show);
     }
 }
 
