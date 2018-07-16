@@ -56,12 +56,12 @@ function hide(id1,id2){
 }
 function setStyle(size){
     var elements = document.getElementsByClassName('mem'), i, len;
-    var height = size*22*(1/size);
+    var height = size*10*(1/size);
     var fontSize=2/3*height;
     var strForHeight = height.toString();
     var strForfontSize = fontSize.toString();
-    strForHeight = strForHeight.concat("px");
-    strForfontSize = strForfontSize.concat("px");
+    strForHeight = strForHeight.concat("vh");
+    strForfontSize = strForfontSize.concat("vh");
     
     for (i = 0, len = elements.length; i < len; i++) {
       elements[i].style.height=strForHeight;
