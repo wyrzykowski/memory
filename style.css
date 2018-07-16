@@ -1,0 +1,19 @@
+body{
+    background-color:rgb(140, 206, 42);
+}
+.mem{
+    position: static;
+    font-size:3vh;
+    color:white;
+    text-align: center;
+    height: 5vh;
+    width:5vh;
+    background-color:green;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    cursor: pointer;
+}
+
+
+
