@@ -10,7 +10,7 @@ this.value=value;
 }
 var elementsArray = new Array;
 
-var size=25;
+var size=16;
 
 
 InitializeBoard(size);
