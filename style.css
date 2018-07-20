@@ -1,5 +1,37 @@
 body{
     background-color:rgb(140, 206, 42);
+    padding:0;
+}
+#start-board{
+    text-align: center;
+    color:#FFF;
+    z-index:1000;
+    display:block;
+    position:fixed;
+    top:10vh;
+    left:20%;
+    background-color:rgb(93, 161, 84);
+    width:60%;
+    height:60vh;
+    border-style:solid;
+    border-width:2px;
+    padding: 3px 3px 380px 3px;
+    
+}
+#end-board{
+    text-align: center;
+    color:#FFF;
+    z-index:1000;
+    display:none;
+    position:fixed;
+    top:10vh;
+    left:20%;
+    background-color:rgb(93, 161, 84);
+    width:60%;
+    height:60vh;
+    border-style:solid;
+    border-width:2px;
+    padding: 3px 3px 380px 3px;
 }
 .mem{
     position: static;
@@ -15,5 +47,40 @@ body{
     cursor: pointer;
 }
 
+#C{
+height:100vh;
+display:none;
+background-color:rgb(101, 240, 83);
+}
+   
+#score{
+    margin-left:20px;
+}
 
 
+#loader1{
+    display: none;
+    border: 1vh solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 1vh solid #3498db;
+    width: 5vh;
+    height: 5vh;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  #input-error{
+      margin-top:2vh;
+      display:none;
+  }
